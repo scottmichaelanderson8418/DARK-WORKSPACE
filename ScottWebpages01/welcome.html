@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="ISO-8859-1" />
+		<title>Index</title>
+
+		<link rel="stylesheet" href="registerStyle.css" />
+	</head>
+
+	<body>
+		<h1>Enter User Credentials</h1>
+		<form action="/register" method="post">
+			<label for="firstname">First name :</label><br />
+			<input type="text" name="firstName" /> <br />
+
+			<label for="lastname">Last name :</label><br />
+			<input type="text" name="lastName" /> <br />
+
+			<label for="email">Email :</label><br />
+			<input type="email" name="email" /> <br />
+
+			<label for="dob">DOB :</label><br />
+			<input type="date" name="dob" /> <br />
+
+			<label for="password">Password :</label><br />
+			<input type="password" name="password" /> <br />
+
+			<label for="gender">Gender :</label><br />
+			<select name="gender">
+				<option value=""></option>
+				<option value="male">Male</option>
+				<option value="female">Female</option>
+			</select>
+			<br />
+
+			<button type="submit">Submit</button>
+		</form>
+	</body>
+</html>

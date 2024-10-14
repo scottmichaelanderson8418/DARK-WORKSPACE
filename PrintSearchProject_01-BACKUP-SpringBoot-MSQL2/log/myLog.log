@@ -1,0 +1,819 @@
+2024-04-23T08:59:09.075-04:00  INFO 8768 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Starting TeddySpringBootBeginner1Application using Java 17.0.10 with PID 8768 (C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP\target\classes started by SCOTT in C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP)
+2024-04-23T08:59:09.083-04:00  INFO 8768 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-04-23T08:59:09.153-04:00  INFO 8768 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-23T08:59:09.154-04:00  INFO 8768 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-23T08:59:09.904-04:00  INFO 8768 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-23T08:59:09.974-04:00  INFO 8768 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interface.
+2024-04-23T08:59:10.532-04:00  INFO 8768 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-23T08:59:10.546-04:00  INFO 8768 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-23T08:59:10.546-04:00  INFO 8768 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-23T08:59:10.614-04:00  INFO 8768 --- [TeddySpringBootBeginner-1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-23T08:59:10.615-04:00  INFO 8768 --- [TeddySpringBootBeginner-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1460 ms
+2024-04-23T08:59:10.786-04:00  INFO 8768 --- [TeddySpringBootBeginner-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-23T08:59:10.870-04:00  INFO 8768 --- [TeddySpringBootBeginner-1] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-23T08:59:10.923-04:00  INFO 8768 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-23T08:59:11.212-04:00  INFO 8768 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-23T08:59:11.250-04:00  INFO 8768 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-23T08:59:11.583-04:00  INFO 8768 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e30eb0f
+2024-04-23T08:59:11.586-04:00  INFO 8768 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-23T08:59:12.668-04:00  INFO 8768 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-23T08:59:12.764-04:00  INFO 8768 --- [TeddySpringBootBeginner-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T08:59:13.011-04:00  WARN 8768 --- [TeddySpringBootBeginner-1] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'printController' defined in file [C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP\target\classes\com\pokemonreview\controllers\PrintController.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'javax.print.PrintService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-04-23T08:59:13.012-04:00  INFO 8768 --- [TeddySpringBootBeginner-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T08:59:13.017-04:00  INFO 8768 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-23T08:59:13.033-04:00  INFO 8768 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-23T08:59:13.034-04:00  INFO 8768 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-04-23T08:59:13.047-04:00  INFO 8768 --- [TeddySpringBootBeginner-1] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-23T08:59:13.076-04:00 ERROR 8768 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.pokemonreview.controllers.PrintController required a bean of type 'javax.print.PrintService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'javax.print.PrintService' in your configuration.
+
+2024-04-23T09:17:13.596-04:00  INFO 8560 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Starting TeddySpringBootBeginner1Application using Java 17.0.10 with PID 8560 (C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL\target\classes started by SCOTT in C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL)
+2024-04-23T09:17:13.598-04:00  INFO 8560 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-04-23T09:17:13.659-04:00  INFO 8560 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-23T09:17:13.660-04:00  INFO 8560 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-23T09:17:14.448-04:00  INFO 8560 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-23T09:17:14.530-04:00  INFO 8560 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interface.
+2024-04-23T09:17:15.156-04:00  INFO 8560 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-23T09:17:15.168-04:00  INFO 8560 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-23T09:17:15.169-04:00  INFO 8560 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-23T09:17:15.242-04:00  INFO 8560 --- [TeddySpringBootBeginner-1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-23T09:17:15.242-04:00  INFO 8560 --- [TeddySpringBootBeginner-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1581 ms
+2024-04-23T09:17:15.415-04:00  INFO 8560 --- [TeddySpringBootBeginner-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-23T09:17:15.487-04:00  INFO 8560 --- [TeddySpringBootBeginner-1] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-23T09:17:15.532-04:00  INFO 8560 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-23T09:17:15.838-04:00  INFO 8560 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-23T09:17:15.874-04:00  INFO 8560 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-23T09:17:16.233-04:00  INFO 8560 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@41f0e9f3
+2024-04-23T09:17:16.237-04:00  INFO 8560 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-23T09:17:17.352-04:00  INFO 8560 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-23T09:17:17.417-04:00  INFO 8560 --- [TeddySpringBootBeginner-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T09:17:17.681-04:00  WARN 8560 --- [TeddySpringBootBeginner-1] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'printController' defined in file [C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL\target\classes\com\pokemonreview\controllers\PrintController.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'javax.print.PrintService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-04-23T09:17:17.681-04:00  INFO 8560 --- [TeddySpringBootBeginner-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T09:17:17.686-04:00  INFO 8560 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-23T09:17:17.702-04:00  INFO 8560 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-23T09:17:17.704-04:00  INFO 8560 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-04-23T09:17:17.723-04:00  INFO 8560 --- [TeddySpringBootBeginner-1] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-23T09:17:17.762-04:00 ERROR 8560 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.pokemonreview.controllers.PrintController required a bean of type 'javax.print.PrintService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'javax.print.PrintService' in your configuration.
+
+2024-04-23T09:18:25.348-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Starting TeddySpringBootBeginner1Application using Java 17.0.10 with PID 6172 (C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL\target\classes started by SCOTT in C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL)
+2024-04-23T09:18:25.350-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-04-23T09:18:25.419-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-23T09:18:25.419-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-23T09:18:26.229-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-23T09:18:26.313-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interface.
+2024-04-23T09:18:26.901-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-23T09:18:26.915-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-23T09:18:26.915-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-23T09:18:26.980-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-23T09:18:26.981-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1561 ms
+2024-04-23T09:18:27.151-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-23T09:18:27.222-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-23T09:18:27.264-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-23T09:18:27.536-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-23T09:18:27.573-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-23T09:18:27.899-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ebed034
+2024-04-23T09:18:27.903-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-23T09:18:28.971-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-23T09:18:29.027-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T09:18:29.299-04:00  WARN 6172 --- [TeddySpringBootBeginner-1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-23T09:18:29.663-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-23T09:18:29.708-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-23T09:18:29.719-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Started TeddySpringBootBeginner1Application in 4.911 seconds (process running for 5.718)
+2024-04-23T09:18:45.701-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-23T09:18:45.702-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-23T09:18:45.703-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-23T09:22:24.415-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-04-23T09:22:24.433-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T09:22:24.436-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-23T09:22:24.447-04:00  INFO 6172 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-23T09:42:06.932-04:00  INFO 1020 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Starting TeddySpringBootBeginner1Application using Java 17.0.10 with PID 1020 (C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL\target\classes started by SCOTT in C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL)
+2024-04-23T09:42:06.936-04:00  INFO 1020 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-04-23T09:42:07.012-04:00  INFO 1020 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-23T09:42:07.013-04:00  INFO 1020 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-23T09:42:07.187-04:00  WARN 1020 --- [TeddySpringBootBeginner-1] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.pokemonreview.TeddySpringBootBeginner1Application]
+2024-04-23T09:42:07.254-04:00 ERROR 1020 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.pokemonreview.TeddySpringBootBeginner1Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar:3.2.5]
+	at com.pokemonreview.TeddySpringBootBeginner1Application.main(TeddySpringBootBeginner1Application.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.5.jar:3.2.5]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'teddySpringBootBeginner1Application' for bean class [com.pokemonreview.copy.TeddySpringBootBeginner1Application] conflicts with existing, non-compatible bean definition of same name and class [com.pokemonreview.TeddySpringBootBeginner1Application]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165) ~[spring-context-6.1.6.jar:6.1.6]
+	... 18 common frames omitted
+
+2024-04-23T09:42:27.413-04:00  INFO 16836 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Starting TeddySpringBootBeginner1Application using Java 17.0.10 with PID 16836 (C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL\target\classes started by SCOTT in C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL)
+2024-04-23T09:42:27.416-04:00  INFO 16836 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-04-23T09:42:27.480-04:00  INFO 16836 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-23T09:42:27.480-04:00  INFO 16836 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-23T09:42:27.638-04:00  WARN 16836 --- [TeddySpringBootBeginner-1] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.pokemonreview.TeddySpringBootBeginner1Application]
+2024-04-23T09:42:27.703-04:00 ERROR 16836 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.pokemonreview.TeddySpringBootBeginner1Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar:3.2.5]
+	at com.pokemonreview.TeddySpringBootBeginner1Application.main(TeddySpringBootBeginner1Application.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.5.jar:3.2.5]
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'teddySpringBootBeginner1Application' for bean class [com.pokemonreview.copy.TeddySpringBootBeginner1Application] conflicts with existing, non-compatible bean definition of same name and class [com.pokemonreview.TeddySpringBootBeginner1Application]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165) ~[spring-context-6.1.6.jar:6.1.6]
+	... 18 common frames omitted
+
+2024-04-23T09:44:06.979-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Starting TeddySpringBootBeginner1Application using Java 17.0.10 with PID 15104 (C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL\target\classes started by SCOTT in C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL)
+2024-04-23T09:44:06.982-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-04-23T09:44:07.044-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-23T09:44:07.044-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-23T09:44:07.824-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-23T09:44:07.902-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interface.
+2024-04-23T09:44:08.510-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-23T09:44:08.528-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-23T09:44:08.529-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-23T09:44:08.605-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-23T09:44:08.606-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1561 ms
+2024-04-23T09:44:08.815-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-23T09:44:08.890-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-23T09:44:08.936-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-23T09:44:09.218-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-23T09:44:09.255-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-23T09:44:09.693-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b355ce6
+2024-04-23T09:44:09.696-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-23T09:44:10.881-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-23T09:44:10.938-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T09:44:11.212-04:00  WARN 15104 --- [TeddySpringBootBeginner-1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-23T09:44:11.558-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-23T09:44:11.604-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-23T09:44:11.615-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Started TeddySpringBootBeginner1Application in 5.117 seconds (process running for 5.896)
+2024-04-23T09:44:18.477-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-23T09:44:18.477-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-23T09:44:18.479-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-04-23T09:44:35.738-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-04-23T09:44:35.755-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T09:44:35.758-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-23T09:44:35.768-04:00  INFO 15104 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-23T12:25:23.160-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Starting TeddySpringBootBeginner1Application using Java 17.0.10 with PID 15772 (C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL\target\classes started by SCOTT in C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL)
+2024-04-23T12:25:23.163-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-04-23T12:25:23.229-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-23T12:25:23.229-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-23T12:25:24.099-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-23T12:25:24.179-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interface.
+2024-04-23T12:25:24.796-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-23T12:25:24.811-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-23T12:25:24.811-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-23T12:25:24.882-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-23T12:25:24.883-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1653 ms
+2024-04-23T12:25:25.075-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-23T12:25:25.160-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-23T12:25:25.212-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-23T12:25:25.509-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-23T12:25:25.549-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-23T12:25:25.872-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@399f0bc
+2024-04-23T12:25:25.875-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-23T12:25:27.005-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-23T12:25:27.090-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T12:25:27.375-04:00  WARN 15772 --- [TeddySpringBootBeginner-1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-23T12:25:27.753-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-23T12:25:27.803-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-23T12:25:27.814-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Started TeddySpringBootBeginner1Application in 5.228 seconds (process running for 6.069)
+2024-04-23T12:25:36.081-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-23T12:25:36.082-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-23T12:25:36.083-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-23T12:25:59.824-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-04-23T12:25:59.838-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T12:25:59.842-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-23T12:25:59.859-04:00  INFO 15772 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-23T12:26:03.974-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Starting TeddySpringBootBeginner1Application using Java 17.0.10 with PID 11552 (C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL\target\classes started by SCOTT in C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL)
+2024-04-23T12:26:03.977-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-04-23T12:26:04.038-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-23T12:26:04.038-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-23T12:26:04.871-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-23T12:26:04.944-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interface.
+2024-04-23T12:26:05.501-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-23T12:26:05.513-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-23T12:26:05.513-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-23T12:26:05.582-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-23T12:26:05.582-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1543 ms
+2024-04-23T12:26:05.751-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-23T12:26:05.821-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-23T12:26:05.865-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-23T12:26:06.126-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-23T12:26:06.161-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-23T12:26:06.499-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c11bacb
+2024-04-23T12:26:06.503-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-23T12:26:07.571-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-23T12:26:07.653-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T12:26:07.911-04:00  WARN 11552 --- [TeddySpringBootBeginner-1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-23T12:26:08.256-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-23T12:26:08.301-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-23T12:26:08.312-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Started TeddySpringBootBeginner1Application in 4.822 seconds (process running for 5.589)
+2024-04-23T12:26:11.968-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-23T12:26:11.969-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-23T12:26:11.970-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-23T12:28:35.192-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-04-23T12:28:35.210-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T12:28:35.213-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-23T12:28:35.222-04:00  INFO 11552 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-23T12:28:38.657-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Starting TeddySpringBootBeginner1Application using Java 17.0.10 with PID 5208 (C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL\target\classes started by SCOTT in C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL)
+2024-04-23T12:28:38.659-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-04-23T12:28:38.719-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-23T12:28:38.719-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-23T12:28:39.513-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-23T12:28:39.590-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interface.
+2024-04-23T12:28:40.238-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-23T12:28:40.254-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-23T12:28:40.254-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-23T12:28:40.327-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-23T12:28:40.328-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1608 ms
+2024-04-23T12:28:40.509-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-23T12:28:40.580-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-23T12:28:40.627-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-23T12:28:40.902-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-23T12:28:40.937-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-23T12:28:41.262-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38ce53aa
+2024-04-23T12:28:41.266-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-23T12:28:42.528-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-23T12:28:42.582-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T12:28:42.846-04:00  WARN 5208 --- [TeddySpringBootBeginner-1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-23T12:28:43.193-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-23T12:28:43.239-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-23T12:28:43.250-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Started TeddySpringBootBeginner1Application in 5.09 seconds (process running for 5.902)
+2024-04-23T12:29:11.739-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-23T12:29:11.739-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-23T12:29:11.740-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-23T12:29:22.464-04:00  WARN 5208 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; For input string: "B"]
+2024-04-23T12:31:22.020-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-04-23T12:31:22.037-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(5)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T12:31:22.040-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-23T12:31:22.051-04:00  INFO 5208 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-23T12:31:25.146-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Starting TeddySpringBootBeginner1Application using Java 17.0.10 with PID 13832 (C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL\target\classes started by SCOTT in C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL)
+2024-04-23T12:31:25.149-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-04-23T12:31:25.211-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-23T12:31:25.211-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-23T12:31:26.233-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-23T12:31:26.317-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interface.
+2024-04-23T12:31:26.892-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-23T12:31:26.906-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-23T12:31:26.907-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-23T12:31:26.975-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-23T12:31:26.976-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1763 ms
+2024-04-23T12:31:27.156-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-23T12:31:27.228-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-23T12:31:27.276-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-23T12:31:27.557-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-23T12:31:27.597-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-23T12:31:27.938-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@381e3bbe
+2024-04-23T12:31:27.941-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-23T12:31:29.060-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-23T12:31:29.132-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T12:31:29.419-04:00  WARN 13832 --- [TeddySpringBootBeginner-1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-23T12:31:29.802-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-23T12:31:29.856-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-23T12:31:29.869-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Started TeddySpringBootBeginner1Application in 5.253 seconds (process running for 5.997)
+2024-04-23T12:31:48.304-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-23T12:31:48.304-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-23T12:31:48.306-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-04-23T12:33:26.373-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-04-23T12:33:26.392-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T12:33:26.395-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-23T12:33:26.406-04:00  INFO 13832 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-23T12:33:30.808-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Starting TeddySpringBootBeginner1Application using Java 17.0.10 with PID 13444 (C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL\target\classes started by SCOTT in C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL)
+2024-04-23T12:33:30.811-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-04-23T12:33:30.880-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-23T12:33:30.881-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-23T12:33:31.651-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-23T12:33:31.726-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interface.
+2024-04-23T12:33:32.330-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-23T12:33:32.348-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-23T12:33:32.349-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-23T12:33:32.431-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-23T12:33:32.432-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1551 ms
+2024-04-23T12:33:32.608-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-23T12:33:32.680-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-23T12:33:32.727-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-23T12:33:33.043-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-23T12:33:33.078-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-23T12:33:33.392-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ebed034
+2024-04-23T12:33:33.395-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-23T12:33:34.463-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-23T12:33:34.547-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T12:33:34.825-04:00  WARN 13444 --- [TeddySpringBootBeginner-1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-23T12:33:35.180-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-23T12:33:35.226-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-23T12:33:35.238-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Started TeddySpringBootBeginner1Application in 4.935 seconds (process running for 5.693)
+2024-04-23T12:33:41.292-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-23T12:33:41.293-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-23T12:33:41.295-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-04-23T12:34:21.583-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-04-23T12:34:21.601-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T12:34:21.604-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-23T12:34:21.613-04:00  INFO 13444 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-23T12:34:24.801-04:00  INFO 3564 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Starting TeddySpringBootBeginner1Application using Java 17.0.10 with PID 3564 (C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL\target\classes started by SCOTT in C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL)
+2024-04-23T12:34:24.804-04:00  INFO 3564 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-04-23T12:34:24.868-04:00  INFO 3564 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-23T12:34:24.869-04:00  INFO 3564 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-23T12:34:25.749-04:00  INFO 3564 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-23T12:34:25.829-04:00  INFO 3564 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interface.
+2024-04-23T12:34:26.504-04:00  INFO 3564 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-23T12:34:26.519-04:00  INFO 3564 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-23T12:34:26.519-04:00  INFO 3564 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-23T12:34:26.601-04:00  INFO 3564 --- [TeddySpringBootBeginner-1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-23T12:34:26.602-04:00  INFO 3564 --- [TeddySpringBootBeginner-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1733 ms
+2024-04-23T12:34:26.806-04:00  INFO 3564 --- [TeddySpringBootBeginner-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-23T12:34:26.885-04:00  INFO 3564 --- [TeddySpringBootBeginner-1] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-23T12:34:26.935-04:00  INFO 3564 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-23T12:34:27.320-04:00  INFO 3564 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-23T12:34:27.371-04:00  INFO 3564 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-23T12:34:27.776-04:00  INFO 3564 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@fe3ce26
+2024-04-23T12:34:27.779-04:00  INFO 3564 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-23T12:34:28.997-04:00  INFO 3564 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-23T12:34:29.068-04:00  INFO 3564 --- [TeddySpringBootBeginner-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T12:34:29.334-04:00  WARN 3564 --- [TeddySpringBootBeginner-1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-23T12:34:29.673-04:00  INFO 3564 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-23T12:34:29.720-04:00  INFO 3564 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-23T12:34:29.732-04:00  INFO 3564 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Started TeddySpringBootBeginner1Application in 5.429 seconds (process running for 6.194)
+2024-04-23T12:41:11.356-04:00  INFO 3564 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-04-23T12:41:11.371-04:00  INFO 3564 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T12:41:11.374-04:00  INFO 3564 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-23T12:41:11.386-04:00  INFO 3564 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-23T12:41:19.077-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Starting TeddySpringBootBeginner1Application using Java 17.0.10 with PID 15148 (C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL\target\classes started by SCOTT in C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL)
+2024-04-23T12:41:19.079-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-04-23T12:41:19.143-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-23T12:41:19.144-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-23T12:41:20.062-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-23T12:41:20.163-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 1 JPA repository interface.
+2024-04-23T12:41:20.852-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-23T12:41:20.870-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-23T12:41:20.871-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-23T12:41:20.952-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-23T12:41:20.953-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1809 ms
+2024-04-23T12:41:21.150-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-23T12:41:21.230-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-23T12:41:21.278-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-23T12:41:21.591-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-23T12:41:21.632-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-23T12:41:21.985-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@405404a
+2024-04-23T12:41:21.988-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-23T12:41:23.210-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-23T12:41:23.335-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T12:41:23.787-04:00  WARN 15148 --- [TeddySpringBootBeginner-1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-23T12:41:24.204-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-23T12:41:24.248-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-23T12:41:24.259-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Started TeddySpringBootBeginner1Application in 5.691 seconds (process running for 6.478)
+2024-04-23T12:41:29.112-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-23T12:41:29.113-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-23T12:41:29.115-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-23T12:49:51.507-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-04-23T12:49:51.524-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(13)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T12:49:51.528-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-23T12:49:51.538-04:00  INFO 15148 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(13)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-23T12:49:55.292-04:00  INFO 6752 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Starting TeddySpringBootBeginner1Application using Java 17.0.10 with PID 6752 (C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL\target\classes started by SCOTT in C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL)
+2024-04-23T12:49:55.294-04:00  INFO 6752 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-04-23T12:49:55.357-04:00  INFO 6752 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-23T12:49:55.357-04:00  INFO 6752 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-23T12:49:56.115-04:00  INFO 6752 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-23T12:49:56.188-04:00  INFO 6752 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interface.
+2024-04-23T12:49:56.780-04:00  INFO 6752 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-23T12:49:56.794-04:00  INFO 6752 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-23T12:49:56.795-04:00  INFO 6752 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-23T12:49:56.866-04:00  INFO 6752 --- [TeddySpringBootBeginner-1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-23T12:49:56.866-04:00  INFO 6752 --- [TeddySpringBootBeginner-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1508 ms
+2024-04-23T12:49:57.036-04:00  INFO 6752 --- [TeddySpringBootBeginner-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-23T12:49:57.103-04:00  INFO 6752 --- [TeddySpringBootBeginner-1] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-23T12:49:57.148-04:00  INFO 6752 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-23T12:49:57.404-04:00  INFO 6752 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-23T12:49:57.438-04:00  INFO 6752 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-23T12:49:57.773-04:00  INFO 6752 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2107a729
+2024-04-23T12:49:57.777-04:00  INFO 6752 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-23T12:49:58.977-04:00  INFO 6752 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-23T12:49:59.064-04:00  INFO 6752 --- [TeddySpringBootBeginner-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T12:49:59.355-04:00  WARN 6752 --- [TeddySpringBootBeginner-1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-23T12:49:59.691-04:00  INFO 6752 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-23T12:49:59.743-04:00  INFO 6752 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-23T12:49:59.755-04:00  INFO 6752 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Started TeddySpringBootBeginner1Application in 4.963 seconds (process running for 5.753)
+2024-04-23T12:50:17.648-04:00  INFO 6752 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-04-23T12:50:17.661-04:00  INFO 6752 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T12:50:17.664-04:00  INFO 6752 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-23T12:50:17.674-04:00  INFO 6752 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-23T12:50:21.331-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Starting TeddySpringBootBeginner1Application using Java 17.0.10 with PID 9280 (C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL\target\classes started by SCOTT in C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL)
+2024-04-23T12:50:21.333-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-04-23T12:50:21.396-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-23T12:50:21.397-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-23T12:50:22.316-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-23T12:50:22.426-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 1 JPA repository interface.
+2024-04-23T12:50:23.211-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-23T12:50:23.234-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-23T12:50:23.234-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-23T12:50:23.360-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-23T12:50:23.362-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1965 ms
+2024-04-23T12:50:23.688-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-23T12:50:23.780-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-23T12:50:23.830-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-23T12:50:24.149-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-23T12:50:24.190-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-23T12:50:24.549-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8b1ae87
+2024-04-23T12:50:24.553-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-23T12:50:25.937-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-23T12:50:26.031-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T12:50:26.376-04:00  WARN 9280 --- [TeddySpringBootBeginner-1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-23T12:50:26.757-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-23T12:50:26.800-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-23T12:50:26.811-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Started TeddySpringBootBeginner1Application in 6.014 seconds (process running for 6.979)
+2024-04-23T12:51:29.391-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-23T12:51:29.392-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-23T12:51:29.393-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-23T12:52:14.066-04:00  WARN 9280 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.pokemonreview.exceptions.PokemonNotFoundException: Pokemon could not be found]
+2024-04-23T12:52:19.437-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-04-23T12:52:19.452-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T12:52:19.455-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-23T12:52:19.464-04:00  INFO 9280 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-23T12:52:22.470-04:00  INFO 6536 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Starting TeddySpringBootBeginner1Application using Java 17.0.10 with PID 6536 (C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL\target\classes started by SCOTT in C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL)
+2024-04-23T12:52:22.472-04:00  INFO 6536 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-04-23T12:52:22.539-04:00  INFO 6536 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-23T12:52:22.540-04:00  INFO 6536 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-23T12:52:23.350-04:00  INFO 6536 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-23T12:52:23.430-04:00  INFO 6536 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interface.
+2024-04-23T12:52:24.108-04:00  INFO 6536 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-23T12:52:24.124-04:00  INFO 6536 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-23T12:52:24.125-04:00  INFO 6536 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-23T12:52:24.203-04:00  INFO 6536 --- [TeddySpringBootBeginner-1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-23T12:52:24.204-04:00  INFO 6536 --- [TeddySpringBootBeginner-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1663 ms
+2024-04-23T12:52:24.404-04:00  INFO 6536 --- [TeddySpringBootBeginner-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-23T12:52:24.504-04:00  INFO 6536 --- [TeddySpringBootBeginner-1] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-23T12:52:24.566-04:00  INFO 6536 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-23T12:52:24.924-04:00  INFO 6536 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-23T12:52:24.972-04:00  INFO 6536 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-23T12:52:25.329-04:00  INFO 6536 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18252ebf
+2024-04-23T12:52:25.332-04:00  INFO 6536 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-23T12:52:26.463-04:00  INFO 6536 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-23T12:52:26.537-04:00  INFO 6536 --- [TeddySpringBootBeginner-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T12:52:26.800-04:00  WARN 6536 --- [TeddySpringBootBeginner-1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-23T12:52:27.148-04:00  INFO 6536 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-23T12:52:27.197-04:00  INFO 6536 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-23T12:52:27.206-04:00  INFO 6536 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Started TeddySpringBootBeginner1Application in 5.212 seconds (process running for 5.969)
+2024-04-23T12:56:07.683-04:00  INFO 6536 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-04-23T12:56:07.702-04:00  INFO 6536 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T12:56:07.707-04:00  INFO 6536 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-23T12:56:07.723-04:00  INFO 6536 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-23T12:56:11.198-04:00  INFO 19076 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Starting TeddySpringBootBeginner1Application using Java 17.0.10 with PID 19076 (C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL\target\classes started by SCOTT in C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL)
+2024-04-23T12:56:11.203-04:00  INFO 19076 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-04-23T12:56:11.275-04:00  INFO 19076 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-23T12:56:11.276-04:00  INFO 19076 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-23T12:56:12.104-04:00  INFO 19076 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-23T12:56:12.177-04:00  INFO 19076 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interface.
+2024-04-23T12:56:12.741-04:00  INFO 19076 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-23T12:56:12.755-04:00  INFO 19076 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-23T12:56:12.756-04:00  INFO 19076 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-23T12:56:12.823-04:00  INFO 19076 --- [TeddySpringBootBeginner-1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-23T12:56:12.824-04:00  INFO 19076 --- [TeddySpringBootBeginner-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1547 ms
+2024-04-23T12:56:13.005-04:00  INFO 19076 --- [TeddySpringBootBeginner-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-23T12:56:13.081-04:00  INFO 19076 --- [TeddySpringBootBeginner-1] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-23T12:56:13.129-04:00  INFO 19076 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-23T12:56:13.429-04:00  INFO 19076 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-23T12:56:13.464-04:00  INFO 19076 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-23T12:56:13.819-04:00  INFO 19076 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f8a4027
+2024-04-23T12:56:13.822-04:00  INFO 19076 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-23T13:52:39.938-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Starting TeddySpringBootBeginner1Application using Java 17.0.10 with PID 12756 (C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL\target\classes started by SCOTT in C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL)
+2024-04-23T13:52:39.941-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-04-23T13:52:40.008-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-23T13:52:40.009-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-23T13:52:40.830-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-23T13:52:40.906-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interface.
+2024-04-23T13:52:41.491-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-23T13:52:41.507-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-23T13:52:41.507-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-23T13:52:41.579-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-23T13:52:41.580-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1570 ms
+2024-04-23T13:52:41.760-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-23T13:52:41.828-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-23T13:52:41.877-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-23T13:52:42.156-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-23T13:52:42.192-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-23T13:52:42.538-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6bd804bb
+2024-04-23T13:52:42.542-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-23T13:52:43.618-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-23T13:52:43.714-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T13:52:43.991-04:00  WARN 12756 --- [TeddySpringBootBeginner-1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-23T13:52:44.344-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-23T13:52:44.389-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-23T13:52:44.399-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Started TeddySpringBootBeginner1Application in 4.965 seconds (process running for 5.774)
+2024-04-23T13:54:27.657-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-04-23T13:54:27.677-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T13:54:27.683-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-23T13:54:27.701-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-23T13:54:27.837-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Starting TeddySpringBootBeginner1Application using Java 17.0.10 with PID 12756 (C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL\target\classes started by SCOTT in C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL)
+2024-04-23T13:54:27.838-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-04-23T13:54:28.153-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-23T13:54:28.171-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interface.
+2024-04-23T13:54:28.376-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-23T13:54:28.383-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-23T13:54:28.383-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-23T13:54:28.419-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-23T13:54:28.420-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 580 ms
+2024-04-23T13:54:28.473-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-23T13:54:28.480-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-23T13:54:28.488-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-23T13:54:28.490-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-04-23T13:54:28.519-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a341590
+2024-04-23T13:54:28.519-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-04-23T13:54:28.670-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-23T13:54:28.700-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T13:54:28.808-04:00  WARN 12756 --- [TeddySpringBootBeginner-1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-23T13:54:28.982-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-23T13:54:29.004-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-23T13:54:29.012-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Started TeddySpringBootBeginner1Application in 1.226 seconds (process running for 110.387)
+2024-04-23T13:54:29.015-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-04-23T13:54:29.314-04:00  INFO 17092 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Starting TeddySpringBootBeginner1Application using Java 17.0.10 with PID 17092 (C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL\target\classes started by SCOTT in C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL)
+2024-04-23T13:54:29.317-04:00  INFO 17092 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-04-23T13:54:29.373-04:00  INFO 17092 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-23T13:54:29.373-04:00  INFO 17092 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-23T13:54:30.260-04:00  INFO 17092 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-23T13:54:30.337-04:00  INFO 17092 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interface.
+2024-04-23T13:54:30.826-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-04-23T13:54:30.842-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(5)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T13:54:30.843-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-04-23T13:54:30.853-04:00  INFO 12756 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-04-23T13:54:31.032-04:00  INFO 17092 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-23T13:54:31.046-04:00  INFO 17092 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-23T13:54:31.047-04:00  INFO 17092 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-23T13:54:31.117-04:00  INFO 17092 --- [TeddySpringBootBeginner-1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-23T13:54:31.118-04:00  INFO 17092 --- [TeddySpringBootBeginner-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1744 ms
+2024-04-23T13:54:31.316-04:00  INFO 17092 --- [TeddySpringBootBeginner-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-23T13:54:31.402-04:00  INFO 17092 --- [TeddySpringBootBeginner-1] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-23T13:54:31.450-04:00  INFO 17092 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-23T13:54:34.973-04:00  INFO 18200 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Starting TeddySpringBootBeginner1Application using Java 17.0.10 with PID 18200 (C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL\target\classes started by SCOTT in C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL)
+2024-04-23T13:54:34.975-04:00  INFO 18200 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-04-23T13:54:35.042-04:00  INFO 18200 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-23T13:54:35.043-04:00  INFO 18200 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-23T13:54:36.104-04:00  INFO 18200 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-23T13:54:36.200-04:00  INFO 18200 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83 ms. Found 1 JPA repository interface.
+2024-04-23T13:54:36.859-04:00  INFO 18200 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-23T13:54:36.879-04:00  INFO 18200 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-23T13:54:36.880-04:00  INFO 18200 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-23T13:54:36.972-04:00  INFO 18200 --- [TeddySpringBootBeginner-1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-23T13:54:36.972-04:00  INFO 18200 --- [TeddySpringBootBeginner-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1928 ms
+2024-04-23T13:54:37.138-04:00  INFO 18200 --- [TeddySpringBootBeginner-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-23T13:54:37.211-04:00  INFO 18200 --- [TeddySpringBootBeginner-1] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-23T13:54:37.252-04:00  INFO 18200 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-23T13:54:37.525-04:00  INFO 18200 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-23T13:54:37.560-04:00  INFO 18200 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-23T13:54:37.891-04:00  INFO 18200 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63bb7f47
+2024-04-23T13:54:37.894-04:00  INFO 18200 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-23T13:54:39.021-04:00  INFO 18200 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-23T13:54:39.089-04:00  INFO 18200 --- [TeddySpringBootBeginner-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T13:54:39.366-04:00  WARN 18200 --- [TeddySpringBootBeginner-1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-23T13:54:39.728-04:00  INFO 18200 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-23T13:54:39.779-04:00  INFO 18200 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-23T13:54:39.790-04:00  INFO 18200 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Started TeddySpringBootBeginner1Application in 5.324 seconds (process running for 6.142)
+2024-04-23T13:54:58.162-04:00  INFO 18200 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-04-23T13:54:58.180-04:00  INFO 18200 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T13:54:58.183-04:00  INFO 18200 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-23T13:54:58.195-04:00  INFO 18200 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-23T13:57:52.286-04:00  INFO 13672 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Starting TeddySpringBootBeginner1Application using Java 17.0.10 with PID 13672 (C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL\target\classes started by SCOTT in C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL)
+2024-04-23T13:57:52.289-04:00  INFO 13672 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-04-23T13:57:52.354-04:00  INFO 13672 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-23T13:57:52.354-04:00  INFO 13672 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-23T13:57:53.108-04:00  INFO 13672 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-23T13:57:53.181-04:00  INFO 13672 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interface.
+2024-04-23T13:57:53.752-04:00  INFO 13672 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-23T13:57:53.767-04:00  INFO 13672 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-23T13:57:53.768-04:00  INFO 13672 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-23T13:57:53.835-04:00  INFO 13672 --- [TeddySpringBootBeginner-1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-23T13:57:53.836-04:00  INFO 13672 --- [TeddySpringBootBeginner-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1481 ms
+2024-04-23T13:57:54.015-04:00  INFO 13672 --- [TeddySpringBootBeginner-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-23T13:57:54.083-04:00  INFO 13672 --- [TeddySpringBootBeginner-1] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-23T13:57:54.130-04:00  INFO 13672 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-23T13:57:54.395-04:00  INFO 13672 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-23T13:57:54.429-04:00  INFO 13672 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-23T13:57:54.779-04:00  INFO 13672 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f78f099
+2024-04-23T13:57:54.782-04:00  INFO 13672 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-23T13:57:55.919-04:00  INFO 13672 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-23T13:57:55.985-04:00  INFO 13672 --- [TeddySpringBootBeginner-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T13:57:56.291-04:00  WARN 13672 --- [TeddySpringBootBeginner-1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-23T13:57:56.664-04:00  INFO 13672 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-23T13:57:56.709-04:00  INFO 13672 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-23T13:57:56.720-04:00  INFO 13672 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Started TeddySpringBootBeginner1Application in 4.926 seconds (process running for 5.732)
+2024-04-23T13:58:04.933-04:00  INFO 13672 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-04-23T13:58:04.951-04:00  INFO 13672 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T13:58:04.954-04:00  INFO 13672 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-23T13:58:04.968-04:00  INFO 13672 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-23T13:58:43.587-04:00  INFO 13476 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Starting TeddySpringBootBeginner1Application using Java 17.0.10 with PID 13476 (C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL\target\classes started by SCOTT in C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL)
+2024-04-23T13:58:43.589-04:00  INFO 13476 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-04-23T13:58:43.650-04:00  INFO 13476 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-23T13:58:43.651-04:00  INFO 13476 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-23T13:58:44.410-04:00  INFO 13476 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-23T13:58:44.478-04:00  INFO 13476 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interface.
+2024-04-23T13:58:45.055-04:00  INFO 13476 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-23T13:58:45.070-04:00  INFO 13476 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-23T13:58:45.071-04:00  INFO 13476 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-23T13:58:45.137-04:00  INFO 13476 --- [TeddySpringBootBeginner-1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-23T13:58:45.138-04:00  INFO 13476 --- [TeddySpringBootBeginner-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1486 ms
+2024-04-23T13:58:45.313-04:00  INFO 13476 --- [TeddySpringBootBeginner-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-23T13:58:45.382-04:00  INFO 13476 --- [TeddySpringBootBeginner-1] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-23T13:58:45.426-04:00  INFO 13476 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-23T13:58:45.721-04:00  INFO 13476 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-23T13:58:45.757-04:00  INFO 13476 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-23T13:58:46.085-04:00  INFO 13476 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f78f099
+2024-04-23T13:58:46.088-04:00  INFO 13476 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-23T13:58:47.278-04:00  INFO 13476 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-23T13:58:47.350-04:00  INFO 13476 --- [TeddySpringBootBeginner-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T13:58:47.640-04:00  WARN 13476 --- [TeddySpringBootBeginner-1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-23T13:59:27.766-04:00  INFO 8044 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Starting TeddySpringBootBeginner1Application using Java 17.0.10 with PID 8044 (C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL\target\classes started by SCOTT in C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL)
+2024-04-23T13:59:27.769-04:00  INFO 8044 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-04-23T13:59:27.828-04:00  INFO 8044 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-23T13:59:27.829-04:00  INFO 8044 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-23T13:59:28.554-04:00  INFO 8044 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-23T13:59:28.626-04:00  INFO 8044 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interface.
+2024-04-23T13:59:29.174-04:00  INFO 8044 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-23T13:59:29.190-04:00  INFO 8044 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-23T13:59:29.191-04:00  INFO 8044 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-23T13:59:29.260-04:00  INFO 8044 --- [TeddySpringBootBeginner-1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-23T13:59:29.260-04:00  INFO 8044 --- [TeddySpringBootBeginner-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1430 ms
+2024-04-23T13:59:29.430-04:00  INFO 8044 --- [TeddySpringBootBeginner-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-23T13:59:29.499-04:00  INFO 8044 --- [TeddySpringBootBeginner-1] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-23T13:59:29.542-04:00  INFO 8044 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-23T13:59:29.813-04:00  INFO 8044 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-23T13:59:29.848-04:00  INFO 8044 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-23T13:59:30.195-04:00  INFO 8044 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d785690
+2024-04-23T13:59:30.198-04:00  INFO 8044 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-23T13:59:31.279-04:00  INFO 8044 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-23T13:59:31.342-04:00  INFO 8044 --- [TeddySpringBootBeginner-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T13:59:31.617-04:00  WARN 8044 --- [TeddySpringBootBeginner-1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-23T13:59:32.034-04:00  INFO 8044 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-23T13:59:32.079-04:00  INFO 8044 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-23T13:59:32.088-04:00  INFO 8044 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Started TeddySpringBootBeginner1Application in 4.806 seconds (process running for 5.584)
+2024-04-23T13:59:33.005-04:00  INFO 8044 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-04-23T13:59:33.025-04:00  INFO 8044 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T13:59:33.034-04:00  INFO 8044 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-23T13:59:33.047-04:00  INFO 8044 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-23T14:14:42.214-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Starting TeddySpringBootBeginner1Application using Java 17.0.10 with PID 3284 (C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL\target\classes started by SCOTT in C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL)
+2024-04-23T14:14:42.217-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-04-23T14:14:42.282-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-23T14:14:42.282-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-23T14:14:43.052-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-23T14:14:43.129-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interface.
+2024-04-23T14:14:43.713-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-23T14:14:43.729-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-23T14:14:43.730-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-23T14:14:43.799-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-23T14:14:43.800-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1517 ms
+2024-04-23T14:14:43.968-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-23T14:14:44.040-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-23T14:14:44.089-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-23T14:14:44.353-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-23T14:14:44.387-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-23T14:14:44.701-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63bb7f47
+2024-04-23T14:14:44.704-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-23T14:14:45.755-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-23T14:14:45.815-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T14:14:46.077-04:00  WARN 3284 --- [TeddySpringBootBeginner-1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-23T14:14:46.414-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-23T14:14:46.468-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-23T14:14:46.480-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Started TeddySpringBootBeginner1Application in 4.767 seconds (process running for 5.517)
+2024-04-23T14:14:51.395-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-23T14:14:51.396-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-23T14:14:51.397-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-23T14:18:08.177-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 9 class path changes (9 additions, 0 deletions, 0 modifications)
+2024-04-23T14:18:08.200-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T14:18:08.204-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-23T14:18:08.220-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-23T14:18:08.344-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Starting TeddySpringBootBeginner1Application using Java 17.0.10 with PID 3284 (C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL\target\classes started by SCOTT in C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL)
+2024-04-23T14:18:08.345-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-04-23T14:18:08.622-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-23T14:18:08.636-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interface.
+2024-04-23T14:18:08.763-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-23T14:18:08.764-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-23T14:18:08.764-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-23T14:18:08.789-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-23T14:18:08.789-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 440 ms
+2024-04-23T14:18:08.830-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-23T14:18:08.834-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-23T14:18:08.840-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-23T14:18:08.842-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-04-23T14:18:08.869-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@26a02676
+2024-04-23T14:18:08.870-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-04-23T14:18:08.983-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-23T14:18:09.003-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T14:18:09.091-04:00  WARN 3284 --- [TeddySpringBootBeginner-1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-23T14:18:09.238-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-23T14:18:09.253-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-23T14:18:09.261-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Started TeddySpringBootBeginner1Application in 0.96 seconds (process running for 208.298)
+2024-04-23T14:18:09.266-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-04-23T14:18:21.847-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(16)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-04-23T14:18:21.859-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(16)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T14:18:21.860-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(16)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-04-23T14:18:21.869-04:00  INFO 3284 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(16)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-04-23T14:42:14.538-04:00  INFO 13940 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Starting TeddySpringBootBeginner1Application using Java 17.0.10 with PID 13940 (C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL\target\classes started by SCOTT in C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL)
+2024-04-23T14:42:14.541-04:00  INFO 13940 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-04-23T14:42:14.600-04:00  INFO 13940 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-23T14:42:14.600-04:00  INFO 13940 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-23T14:42:15.402-04:00  INFO 13940 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-23T14:42:15.475-04:00  INFO 13940 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interface.
+2024-04-23T14:42:16.142-04:00  INFO 13940 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-23T14:42:16.157-04:00  INFO 13940 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-23T14:42:16.157-04:00  INFO 13940 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-23T14:42:16.227-04:00  INFO 13940 --- [TeddySpringBootBeginner-1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-23T14:42:16.228-04:00  INFO 13940 --- [TeddySpringBootBeginner-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1627 ms
+2024-04-23T14:42:16.422-04:00  INFO 13940 --- [TeddySpringBootBeginner-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-23T14:42:16.495-04:00  INFO 13940 --- [TeddySpringBootBeginner-1] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-23T14:42:16.551-04:00  INFO 13940 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-23T14:42:16.824-04:00  INFO 13940 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-23T14:42:16.858-04:00  INFO 13940 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-23T14:42:17.194-04:00  INFO 13940 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@191afb54
+2024-04-23T14:42:17.198-04:00  INFO 13940 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-04-23T14:42:18.273-04:00  INFO 13940 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-23T14:42:18.364-04:00  INFO 13940 --- [TeddySpringBootBeginner-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T14:42:18.621-04:00  WARN 13940 --- [TeddySpringBootBeginner-1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-23T14:42:18.967-04:00  INFO 13940 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-23T14:42:19.011-04:00  INFO 13940 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-23T14:42:19.022-04:00  INFO 13940 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Started TeddySpringBootBeginner1Application in 4.956 seconds (process running for 5.735)
+2024-04-23T14:43:04.738-04:00  INFO 13940 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-04-23T14:43:04.756-04:00  INFO 13940 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-23T14:43:04.759-04:00  INFO 13940 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-04-23T14:43:04.772-04:00  INFO 13940 --- [TeddySpringBootBeginner-1] [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-04-23T14:48:17.723-04:00  INFO 13072 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : Starting TeddySpringBootBeginner1Application using Java 17.0.10 with PID 13072 (C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL\target\classes started by SCOTT in C:\Users\SCOTT\Documents\06_CPCC_SPRING_2024\CSC-258-N801-JAVA_ENTERPRISE_PROGRAMS\STS_WORKSPACE_DARK\PrintSearchProject_01-BACKUP-SpringBoot-MSQL)
+2024-04-23T14:48:17.726-04:00  INFO 13072 --- [TeddySpringBootBeginner-1] [restartedMain] c.p.TeddySpringBootBeginner1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-04-23T14:48:17.784-04:00  INFO 13072 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-04-23T14:48:17.785-04:00  INFO 13072 --- [TeddySpringBootBeginner-1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-04-23T14:48:18.520-04:00  INFO 13072 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-23T14:48:18.592-04:00  INFO 13072 --- [TeddySpringBootBeginner-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interface.
+2024-04-23T14:48:19.161-04:00  INFO 13072 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-23T14:48:19.175-04:00  INFO 13072 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-23T14:48:19.175-04:00  INFO 13072 --- [TeddySpringBootBeginner-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-04-23T14:48:19.247-04:00  INFO 13072 --- [TeddySpringBootBeginner-1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-23T14:48:19.248-04:00  INFO 13072 --- [TeddySpringBootBeginner-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1463 ms
+2024-04-23T14:48:19.442-04:00  INFO 13072 --- [TeddySpringBootBeginner-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-23T14:48:19.514-04:00  INFO 13072 --- [TeddySpringBootBeginner-1] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-04-23T14:48:19.557-04:00  INFO 13072 --- [TeddySpringBootBeginner-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-04-23T14:48:19.857-04:00  INFO 13072 --- [TeddySpringBootBeginner-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-23T14:48:19.892-04:00  INFO 13072 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-04-23T14:48:20.240-04:00  INFO 13072 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18252ebf
+2024-04-23T14:48:20.244-04:00  INFO 13072 --- [TeddySpringBootBeginner-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
